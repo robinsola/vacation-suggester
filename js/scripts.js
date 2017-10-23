@@ -6,13 +6,13 @@ $(document).ready(function() {
       var book = parseInt($("select#book").val());
       var philosophy = parseInt($("select#philosophy").val());
 
-      var result = (comfort + meal + activity + book + philosophy)
+      var result = (comfort + meal + activity + book + philosophy);
 
       if (result <= 45) {
         $('#shire').fadeIn();
-      } else if (result 46-75) {
+      } else if (result >= 46 && result <= 75) {
         $('#starship').fadeIn();
-      } else if (result 76-100) {
+      } else if (result >= 76 && result <= 125) {
         $('#overlook').fadeIn();
       } else {
         $('#bathhouse').fadeIn();
