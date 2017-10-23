@@ -19,6 +19,7 @@ $(document).ready(function() {
       }
 
       $("#quiz").hide();
+      $(".jumbotron").hide();
       event.preventDefault();
   });
 });

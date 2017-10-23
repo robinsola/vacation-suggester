@@ -1,3 +1,16 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 20px;
+}
+
 #shire, #starship, #overlook, #bathhouse {
   display: none;
+}
+
+.btn {
+  margin-top: 20px;
 }
