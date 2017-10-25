@@ -10,74 +10,83 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>What's Your Fantasy Vacation?</h1>
-        <h2>Answer a few questions to find out which destination is best for you... and then... take a vacation!</h2>
+        <h1>Win a trip to the Fantasy Destination of your dreams!</h1>
+        <h4>Go ahead and answer a few questions about yourself so we can send you to the perfect location. What are you waiting for?!?!</h4>
       </div>
 
       <form id="quiz">
         <p>What's your idea of comfort?</p>
         <select class="form-control" id="comfort">
           <option></option>
-          <option value="1">A cozy burrow with a crackling fire and hot tea</option>
-          <option value="15">Constant traveling and being out of my comfort zone</option>
-          <option value="25">Snowed in, deep in the mysterious mountains</option>
-          <option value="40">Soaking in a medicinal hot tub</option>
+          <option value="shire">A cozy burrow with a crackling fire and hot tea</option>
+          <option value="starship">Constant traveling and being out of my comfort zone</option>
+          <option value="overlook">Snowed in, deep in the mysterious mountains</option>
+          <option value="bathhouse">Soaking in a medicinal hot tub</option>
         </select>
 
         <p>Which meal most suits you?</p>
         <select class="form-control" id="meal">
           <option></option>
-          <option value="1">Cakes, mince pie, apple tarts... Shall I go on?</option>
-          <option value="15">A nice hot synthesized meal that reminds me of home</option>
-          <option value="25">A stiff drink and a bloody steak</option>
-          <option value="40">Steaming dumplings</option>
+          <option value="shire">Cakes, mince pie, apple tarts... Shall I go on?</option>
+          <option value="starship">A nice hot synthesized meal that reminds me of home</option>
+          <option value="overlook">A stiff drink and a bloody steak</option>
+          <option value="bathhouse">Steaming dumplings</option>
         </select>
 
         <p>Which activity excites you?</p>
         <select class="form-control" id="activity">
           <option></option>
-          <option value="1">A good meal, and another, and another...</option>
-          <option value="15">Exploring the unknown</option>
-          <option value="25">Finishing my novel</option>
-          <option value="40">Self care and herbal spas</option>
+          <option value="shire">A good meal, and another, and another...</option>
+          <option value="starship">Exploring the unknown</option>
+          <option value="overlook">Finishing my novel</option>
+          <option value="bathhouse">Self care and herbal spas</option>
         </select>
 
           <p>Which of these books sounds most intriguing?</p>
           <select class="form-control" id="book">
             <option></option>
-            <option value="1">A book of songs for the hearth</option>
-            <option value="15">Memoirs of the late Pluto Colonies</option>
-            <option value="25">An Ax to Grind: The Practical Ax Manual</option>
-            <option value="40">One Hundred Demons: A Field Guide to Spiritual Cleansing</option>
+            <option value="shire">A book of songs for the hearth</option>
+            <option value="starship">Memoirs of the late Pluto Colonies</option>
+            <option value="overlook">An Ax to Grind: The Practical Ax Manual</option>
+            <option value="bathhouse">One Hundred Demons: A Field Guide to Spiritual Cleansing</option>
           </select>
 
           <p>Which quote is most relevant to your own philosophy?</p>
           <select class="form-control" id="philosophy">
             <option></option>
-            <option value="1">"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world."</option>
-            <option value="15">"Astronomy compels the soul to look upward, and leads us from this world to another."</option>
-            <option value="25">"There are places where the dead live forever."</option>
-            <option value="40">"A bath refreshes the body, tea refreshes the mind."</option>
+            <option value="shire">"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world."</option>
+            <option value="starship">"Astronomy compels the soul to look upward, and leads us from this world to another."</option>
+            <option value="overlook">"There are places where the dead live forever."</option>
+            <option value="bathhouse">"A bath refreshes the body, tea refreshes the mind."</option>
           </select>
+
+          <div class="form-group">
+            <label for="name">What's your name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
 
           <button type="submit" class="btn">Take Me Away!</button>
       </form>
-      <div id="shire">
-        <h1>Welcome to the Shire!</h1>
-        <img src="img/the-shire.jpg">
-      </div>
-      <div id="starship">
-        <h1>Welcome to the Starship Enterprise!</h1>
-        <img src="img/starship.jpg">
-      </div>
-      <div id="overlook">
-        <h1>Welcome to the Overlook Hotel!</h1>
-        <img src="img/overlook.jpg">
-      </div>
-      <div id="bathhouse">
-        <h1>Welcome to the Spirited Away Bathhouse!</h1>
-        <img src="img/bathhouse.jpg">
-      </div>
+    </div>
+    <div id="shire">
+      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <img src="img/the-shire.jpg">
+      <h1>The Shire</h1>
+    </div>
+    <div id="starship">
+      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <img src="img/starship.jpg">
+      <h1>The Starship Enterprise</h1>
+    </div>
+    <div id="overlook">
+      <h4>Congratulations <span class="name"></span>, You've won a trip to...</h4>
+      <img src="img/overlook.jpg">
+      <h1>The Overlook Hotel</h1>
+    </div>
+    <div id="bathhouse">
+      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <img src="img/bathhouse.jpg">
+      <h1>The Spirited Away Bathhouse</h1>
     </div>
   </body>
 </html>
