@@ -5,16 +5,59 @@ img {
 }
 
 p {
-  margin-top: 20px;
-  color: #FF1053;
+  color: #3A405A;
   font-family: skia;
   font-weight: bold;
 }
 
-h1, h4, h2 {
+h1, h2 {
   text-align: center;
-  font-family: skia;
+  font-family: verdana;
+  font-weight: 800;
   line-height: 50px;
+  color: #83BCFF;
+}
+
+h4 {
+  text-align: center;
+  font-family: verdana;
+  line-height: 50px;
+  color: #3E4E50;
+}
+
+.gallery img {
+  padding: 5px;
+}
+
+.well p {
+  color: #3E4E50;
+  font-family: arial black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.well {
+  background-color: #F2F3AE;
+  font-family: verdana;
+  border-radius: 5%;
+  margin-bottom: 25px;
+}
+
+.radio {
+  padding: 5px;
+}
+
+.btn {
+  margin: 30px 0 30px 0;
+  color: #FFFFFF;
+  background-color: #3E4E50;
+  font-family: skia;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+  background-color: #83BCFF;
+  font-family: skia;
 }
 
 #shire, #starship, #overlook, #bathhouse {
@@ -24,26 +67,4 @@ h1, h4, h2 {
 #quiz {
   width: 50%;
   margin-left: 25%;
-}
-
-.radio {
-  padding: 5px;
-}
-
-.jumbotron {
-  color: #ECC8AF;
-  background-color: #3A405A;
-}
-
-.btn {
-  margin: 30px 0 30px 0;
-  color: white;
-  background-color: #393D3F;
-  font-family: skia;
-}
-
-.btn:hover {
-  color: white;
-  background-color: #FF1053;
-  font-family: skia;
 }
