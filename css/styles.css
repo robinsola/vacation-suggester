@@ -8,6 +8,7 @@ p {
   color: #3A405A;
   font-family: skia;
   font-weight: bold;
+  margin: 20px;
 }
 
 h1, h2 {
@@ -15,10 +16,10 @@ h1, h2 {
   font-family: verdana;
   font-weight: 800;
   line-height: 50px;
-  color: #83BCFF;
+  color: #FE5F55;
 }
 
-h4 {
+h4, h3 {
   text-align: center;
   font-family: verdana;
   line-height: 50px;
@@ -26,7 +27,14 @@ h4 {
 }
 
 .gallery img {
+  display: inline-block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 5px;
   padding: 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .well p {
@@ -37,10 +45,14 @@ h4 {
 }
 
 .well {
-  background-color: #F2F3AE;
+  /*background-color: #F2F3AE;*/
+  background-color: #D8DCFF;
+  /*background-color: #D0FFCE;*/
   font-family: verdana;
   border-radius: 5%;
   margin-bottom: 25px;
+  border-color: #83BCFF;
+  box-shadow: 8px 8px 8px #888888;
 }
 
 .radio {
@@ -56,7 +68,7 @@ h4 {
 
 .btn:hover {
   color: #FFFFFF;
-  background-color: #83BCFF;
+  background-color: #FE5F55;
   font-family: skia;
 }
 
