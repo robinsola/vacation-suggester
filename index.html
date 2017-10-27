@@ -5,60 +5,119 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Vacation Suggester</title>
+    <title>Fantasy Vacation Quiz</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Win a trip to the Fantasy Destination of your dreams!</h1>
-        <h4>Go ahead and answer a few questions about yourself so we can send you to the perfect location. What are you waiting for?!?!</h4>
+        <h2>Which fictional vacation getaway is your perfect match?</h2>
+        <h4>Just answer a few easy questions below to find out</h4>
       </div>
-
       <form id="quiz">
-        <p>What's your idea of comfort?</p>
-        <select class="form-control" id="comfort">
-          <option></option>
-          <option value="shire">A cozy burrow with a crackling fire and hot tea</option>
-          <option value="starship">Constant traveling and being out of my comfort zone</option>
-          <option value="overlook">Snowed in, deep in the mysterious mountains</option>
-          <option value="bathhouse">Soaking in a medicinal hot tub</option>
-        </select>
 
-        <p>Which meal most suits you?</p>
-        <select class="form-control" id="meal">
-          <option></option>
-          <option value="shire">Cakes, mince pie, apple tarts... Shall I go on?</option>
-          <option value="starship">A nice hot synthesized meal that reminds me of home</option>
-          <option value="overlook">A stiff drink and a bloody steak</option>
-          <option value="bathhouse">Steaming dumplings</option>
-        </select>
+        <p>Which of the following most sounds like your idea of comfort?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="comfort" value="starship" checked>
+            Constant traveling and exploration, the novelty of new sights and sounds! In fact, I feel most comfortable when I'm challenging my comfort zone.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="comfort" value="overlook">
+            Being snowed in somewhere remote with just a typewriter and a mind full of ideas ...
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="comfort" value="shire">
+            Nestled deep in an armchair in my cozy little home with a crackling fire and a pot of my favorite hot tea.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="comfort" value="bathhouse">
+            Soaking in an opulent tub, waited on hand and foot with herbs, delicacies, and otherworldy delights.
+          </label>
+        </div>
 
-        <p>Which activity excites you?</p>
-        <select class="form-control" id="activity">
-          <option></option>
-          <option value="shire">A good meal, and another, and another...</option>
-          <option value="starship">Exploring the unknown</option>
-          <option value="overlook">Finishing my novel</option>
-          <option value="bathhouse">Self care and herbal spas</option>
-        </select>
+        <p>Which meal most suits your taste?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meal" value="shire" checked>
+            Seed cakes, mince pie, apple tarts, raspberry jam, and more cakes, and ale, and coffee, and cheese, a few eggs, and pickles... Shall I go on?
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meal" value="starship">
+            A nice plate of purple swix, oskoid, plomeek, raixen, uttaberries, and when I'm feeling adventurous: some bregit lung, gagh, and a little bit of bloodwine to wash it all down
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meal" value="overlook">
+            Bacon, eggs, whatever's in the pantry really. But I love a good stiff glass of Jim Beam, neat.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="meal" value="bathhouse">
+            An endless array of onigiri rice balls, sushi, steamed buns and dumplings, rice-stuffed squid simmered in soy sauce, sweet potato slow-roasted on hot stones,green tea sponge cakes ... as far as the eye can see.
+          </label>
+        </div>
+
+        <p>Which activity most excites you?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="overlook" checked>
+            Finishing my novel in solitude. There are voices enough in my own head...
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="shire">
+            A good meal, and good book, and a warm blanket...
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="starship">
+            Exploring the unknown...it's a big universe
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="bathhouse">
+            Extreme indulgence in self care through supernatural hedonism
+          </label>
+        </div>
 
           <p>Which of these books sounds most intriguing?</p>
-          <select class="form-control" id="book">
-            <option></option>
-            <option value="shire">A book of songs for the hearth</option>
-            <option value="starship">Memoirs of the late Pluto Colonies</option>
-            <option value="overlook">An Ax to Grind: The Practical Ax Manual</option>
-            <option value="bathhouse">One Hundred Demons: A Field Guide to Spiritual Cleansing</option>
-          </select>
-
-          <p>Which quote is most relevant to your own philosophy?</p>
-          <select class="form-control" id="philosophy">
-            <option></option>
-            <option value="shire">"If more of us valued food and cheer and song above hoarded gold, it would be a merrier world."</option>
-            <option value="starship">"Astronomy compels the soul to look upward, and leads us from this world to another."</option>
-            <option value="overlook">"There are places where the dead live forever."</option>
-            <option value="bathhouse">"A bath refreshes the body, tea refreshes the mind."</option>
-          </select>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="starship" checked>
+              Memoirs of the late Pluto Colonies
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="shire">
+              A book of songs for the hearth and home
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="bathhouse">
+              One Hundred Demons: A Field Guide to Spiritual Cleansing
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="overlook">
+              An Ax to Grind: The Practical Ax Manual
+            </label>
+          </div>
 
           <div class="form-group">
             <label for="name">What's your name?</label>
@@ -69,24 +128,28 @@
       </form>
     </div>
     <div id="shire">
-      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <h2><span class="name"></span>, you were made for ...</h2>
       <img src="img/the-shire.jpg">
       <h1>The Shire</h1>
+      <p>Your cozy little heart will feel right at home in the sweet subterranean cottages of The Shire, where you never have to leave home, where your feet are always in slippers—in fact, you don't even have to get out of your robe if you don't want to—and do you smell that? Yes, that's a fresh butter tart cooling in the oven just in time for second breakfast, or is it elevensies already? Oh, who's even counting?...</p>
     </div>
     <div id="starship">
-      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <h2><span class="name"></span>, you were made for ...</h2>
       <img src="img/starship.jpg">
       <h1>The Starship Enterprise</h1>
+      <p>Greetings, Earthling. The unknown beckons. Your home away from home is, well, home. Who says a synthesized meal isn't just as good as the real thing? Besides, doesn't distance make the heart grow fonder? May you live long and prosper at the edge of discovery...and boldly go where no person has gone before.</p>
     </div>
     <div id="overlook">
-      <h4>Congratulations <span class="name"></span>, You've won a trip to...</h4>
+      <h2><span class="name"></span>, you were made for ...</h2>
       <img src="img/overlook.jpg">
       <h1>The Overlook Hotel</h1>
+      <p>You don't want to hurt anybody...you're just trying to get some work done and sometimes people just get in the way, am I right? Don't you worry, here at the Overlook Hotel, there's a whole lot of time and a whole lot of solitude to do just about anything. You'll find everything you need here. A fully stocked bar, a typewriter, an axe... And who knows, maybe you'll just end up meeting some nice new "forever" friends. Oh, and I think you'll especially enjoy room 237.</p>
     </div>
     <div id="bathhouse">
-      <h4>Congratulations <span class="name"></span>! You've won a trip to...</h4>
+      <h2><span class="name"></span>, you were made for ...</h2>
       <img src="img/bathhouse.jpg">
-      <h1>The Spirited Away Bathhouse</h1>
+      <h1>Yubaba's Bathhouse</h1>
+      <p>Oh noble, godlike being that you are! Come, come, indulge your divine tastes, cleanse yourself of filth, and we will wait on you from the moment you cross the threshold to the moment you leave. In this place you are a god, and you deserve all the luxuries that a god's money can buy...</p>
     </div>
   </body>
 </html>
