@@ -45,14 +45,13 @@ h4, h3 {
 }
 
 .well {
-  /*background-color: #F2F3AE;*/
   background-color: #D8DCFF;
-  /*background-color: #D0FFCE;*/
   font-family: verdana;
   border-radius: 5%;
   margin-bottom: 25px;
   border-color: #83BCFF;
   box-shadow: 8px 8px 8px #888888;
+  margin-bottom: 30px;
 }
 
 .radio {

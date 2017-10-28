@@ -1,3 +1,8 @@
+var shire = 0;
+var starship = 0;
+var overlook = 0;
+var bathhouse = 0;
+
 $(document).ready(function() {
   $("form#quiz").submit(function(event) {
     $('html').animate({scrollTop:0}, 1);
@@ -10,11 +15,6 @@ $(document).ready(function() {
     var activity = $("input:radio[name=activity]:checked").val();
     var book = $("input:radio[name=book]:checked").val();
     var philosophy = $("input:radio[name=philosophy]:checked").val();
-
-    var shire = 0;
-    var starship = 0;
-    var overlook = 0;
-    var bathhouse = 0;
 
     if (comfort === "shire") {
       shire += 1;
