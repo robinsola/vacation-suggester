@@ -31,7 +31,7 @@ h4, h3 {
   display: inline-block;
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin: 5px;
+  margin: 5px 5px 20px 5px;
   padding: 5px;
   width: 300px;
   height: 300px;
@@ -50,7 +50,7 @@ h4, h3 {
   border-radius: 5%;
   margin-bottom: 25px;
   border-color: #83BCFF;
-  box-shadow: 8px 8px 8px #888888;
+  box-shadow: 8px 8px 25px #888888;
   margin-bottom: 30px;
 }
 
@@ -62,11 +62,12 @@ h4, h3 {
   margin: 30px 0 30px 0;
   color: #FFFFFF;
   background-color: #3E4E50;
+  transition: background-color .3s;
 }
 
 .btn:hover {
   color: #FFFFFF;
-  background-color: #FE5F55;
+  background-color: #00bf6f;
 }
 
 #shire, #starship, #overlook, #bathhouse {
